@@ -1,0 +1,387 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap');
+a {
+    text-decoration: none;
+    text-underline-position: none;
+}
+body {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+    color: black;
+}
+h3 {
+    font-size: 85px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+/* style for page dOBirth
+/////////*/
+.dOBirth-box {
+    display:flex; 
+    width:100%; 
+    padding: 0px 5px 0px 20px;
+    }
+
+@media(max-width:993px) {
+/*
+    //
+    // LandingPart for mobile devices
+    //
+*/
+.error {
+    color: red;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 40px;
+    margin: auto;
+    
+}
+.landingPart {
+    display: block; 
+    margin: auto; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 40%;
+}
+.button, .pickdateButton a div{
+    border: 1px;
+    background-color: #16a2bd;
+    color: white;
+    border-radius: 5px;
+    padding: 40px 10px 5px 10px;
+    width: 850px;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 200; 
+    margin-bottom:30px;
+}
+#buttons { 
+    margin-top: -30px;
+}
+.button:hover, .buttonSubmit:hover, .pickdateButton a div:hover {
+    background-color: #0388A1;
+    cursor: pointer;   
+}
+/*
+    //
+    // Personal info
+    //
+*/
+#personalInfo {
+    display: none;
+    width: 100%;
+    margin: 0px; 
+    font-size: 40px;
+}
+.personalInfo-top {
+    margin: auto;
+    width: 550px;
+    font-size: 50px;
+    color: black;
+    font-weight: 200;
+}
+select:focus, input:focus{
+    outline-color: rgba(22, 162, 189,0.3);
+    outline-width:thin;
+    outline-style: solid;
+     border: none;
+    border-bottom: 1px solid gray; 
+}
+select, input {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.dateBox select{
+      padding: 0px 0px 0px 0px;
+    margin: 55px 5px 10px 5px;
+    height: 60px;
+}
+.dateBox option {
+     font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 300;
+    }
+.year { 
+    width: 150px;
+}
+.day {
+    width: 150px;
+}
+.month {
+    width: 270px;
+}
+.label {
+    border: none;
+    padding: 35px 0px 7px 0px;
+    margin: 25px 5px 10px 0px;
+    color: gray;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 300;
+    width: 340px;
+   }
+.krskupina option {
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+.krskupina { 
+    margin:auto;
+    width: 100%; 
+    padding: 0px 0px 7px 15px;
+    margin: 42px 20px 30px 0px;
+}
+.form-box {
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px 10px 5px 10px;
+    background-color: white;
+}
+.GDPR-check {   
+    margin: auto;
+    color: gray;
+    border: none;
+    margin: 20px 0px 30px 20px;
+}
+.checkboxSize {
+    width: 20px;
+    height: 20px;
+}
+selec {
+  width: 100%;
+  color: gray;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+.pickdateButton {
+    margin: auto;
+    justify-content: center;
+}
+.pickdateButton a {
+    text-decoration: none;
+    color: white;
+}
+/*
+    //
+    //              Datepicker Part
+    //
+*/
+#datepickerPart {
+    margin: auto; 
+    justify-content: center; 
+    text-align: center;
+    font-family: Montserrat; 
+    font-weight: 300;
+    font-size: 40px;
+    width: 100%;
+}
+.datepicker-box {
+    padding: 15px 0px 5px 0px;
+    margin: auto;
+    width: 100%;
+}
+.buttonSubmit {
+    border: 1px;
+    background-color: #16a2bd;
+    color: white;
+    border-radius: 5px;
+    padding: 35px 10px 35px 10px;
+    font-size:20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+    width: 650px;
+    height: 105px;
+    margin: auto;
+    margin-top:20px;
+    font-size:40px;
+}
+#calendar {
+    margin: auto; 
+    justify-content: center;
+}
+
+}
+
+/*
+    //
+    //          min-width: 992px
+    //
+*/
+@media(min-width:992px) {
+.error {
+    color: red;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 30px;
+    margin: auto;
+}
+body {
+    font-family: Montserrat;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+} 
+.landingPart {
+    display: block; 
+    margin: auto; 
+    justify-content: center;
+    text-align: center;
+    margin-top:200px;
+}
+.buttonSubmit {
+    border: 1px;
+    background-color: #16a2bd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px 35px 10px;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-top:10px;
+    font-size:20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+}
+.button, .pickdateButton a div {
+    border: 1px;
+    background-color: #16a2bd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px 5px 10px;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-top:10px;
+    font-size:20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+}
+.pickdateButton a div {
+    width: 400px;
+}  
+/*---personal info part-------------------------------------*/
+#personalInfo {
+    display: none;
+    margin: auto; 
+    font-family: Montserrat;
+    font-weight: 300;
+}
+.personalInfo-top {
+    margin: auto;
+    width: 59%;
+    font-size: 35px;
+}
+#personalInfo section {
+    margin: auto;
+    width: 60%;
+}
+select, input {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    width: 100%;
+    padding: 11px 0px 7px 0px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+.label {
+    border: none;
+    padding: 11px 0px 7px 0px;
+    margin: 10px 4px 0px -15px;
+    color: gray;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 300;
+    width: 220px;
+}
+
+.dateBox {margin-right:10px;}
+.dateBox select {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 5px 0px;
+}
+.krskupina option {
+    font-size: 20px;
+}
+.krskupina { 
+    margin:auto;
+    width: 100%; 
+    padding: 10px 0px 5px 0px;
+    margin: 10px 0px 0px 0px;
+}
+.form-box {
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0px 5px 0px;
+    background-color: white;
+}
+#datepickerPart {
+    margin: auto; 
+    justify-content: center; 
+    text-align: center;
+    font-family: Montserrat; 
+    font-weight: 200;
+    font-size: 35px;
+    width: 100%;
+}
+.GDPR-check {   
+    margin: auto;
+    font-size:20px;
+    color: gray;
+    border: none;
+}
+.checkboxSize {
+    width: 15px;
+    height: 15px;
+}
+#calendar{
+    margin:25px auto; 
+    width: 370px;
+    justify-content: center;
+}  
+h1 {
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+}
+h3 {
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}  
+}

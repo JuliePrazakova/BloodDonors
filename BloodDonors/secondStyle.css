@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap');
+
+/* ///////signUp.php
+///////*/
+.error {
+    color: red;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: -25px;
+}
+.success {
+    color: limegreen;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    width: 63%;
+    margin: auto; 
+    margin-bottom: -25px;
+}
+
+/* /////////////////confirmation.php page 
+///////////////////
+*/
+article {
+    margin-top: 100px;
+}
+.border {
+    margin:auto;  
+    justify-content: center; 
+}
+.mail-msg {
+    width: 65%; 
+    margin: auto;
+}
+.sumUp-left {
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: 200;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.sumUp-right {
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.box-button {
+    border-bottom: solid 1px #16a2bd;
+    width: 100%;
+    margin: auto;
+}
+.button {
+    height: 65px;
+    width: 340px;
+    margin: auto;
+}
+.confi-Top {
+    width: 770px;
+    margin: auto;
+    margin-top: 30%;
+}
+section {
+    background: rgba(22, 162, 189, 0.1);
+}
+
+/* //////////////////////////*/
+
+body {
+    font-family: Montserrat;
+    background: rgba(22, 162, 189, 0.1);
+    margin: 0px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+}
+h3 {
+    font-size: 65px;
+    font-weight: 200;   
+}
+section {
+    background: none;
+}
+
+/*
+/////
+//////
+/////// styly pro stránku database.php
+//////
+/////
+*/
+
+#customers {
+    font-family: Montserrat;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr th {
+    font-weight: 200;
+}
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#customers tr:hover {
+    background-color: #ddd;
+}
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #16a2bd;
+    color: white;
+}
+header {
+    background:rgba(22,162,189,0.5);
+    color: white;
+    height: 30px;
+    padding: 15px 0px 15px 0px;
+    display: flex; 
+}
+.logo {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 200;
+}
+footer {
+    background: rgb(22,162,189);
+    color: white;
+    height: 20px;
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+}
+footer span {
+    font-size: 16px;
+    display: flex;
+    float: right;
+    font-weight: 300;
+    width: 27%;
+    margin-top: 5px;
+}
+footer div {
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    font-weight: 200;
+}
+#admin, .admin {
+    display: flex;
+    float: right;
+    margin-right: 10%;
+    font-size: 19px;
+    font-weight: 300;
+    width: 40%;
+    margin-top: 4px;
+}
+#admin button {
+    background: none;
+    border: none;
+    font-size:18px;
+    font-weight:300;
+    font-family: Montserrat;
+    margin-left: 80px; 
+    color:white;
+}
+select, input {
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    margin: 0px 40px 0px 20px;
+    width: 150px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 300;   
+}
+.checkbox {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding: 0px;
+}
+label {
+    border: none;
+    font-size: 18px;
+    font-family: Montserrat;
+    width: 270px;
+}
+.database-top {
+    font-size: 48px;
+    margin: auto; 
+    padding: 100px 80px 100px 40px;
+    font-weight: 200;
+    width: 70%;
+}
+.searchBar {
+    display: flex;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    font-weight: 300;
+    border-top: 1px solid #16a2bd;
+    padding: 20px 10px 20px 10px;
+}
+.btnSbt {
+    border-bottom: 1px solid gray;
+    margin: auto;
+    margin-right: 45px;
+    width: 100px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 200;
+}
+
+/*/////////////// page hospital.php
+////////////////
+/////////////*/
+.hospital-box-div {
+    margin: auto;
+    width: 36%;
+    font-size: 35px;
+}
+.hospital-box {
+    width: 40%;  
+    margin: auto; 
+    margin-top: 100px; 
+    border: solid 1px #16a2bd; 
+    padding: 50px;
+}
+.hospital-box-btnSub {
+    margin: auto; 
+    width: 250px; 
+    margin-top: 50px;
+}
+.form-box {
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0px 5px 0px;
+    background-color: white;
+}
+.btSub-hospital {
+    border: 1px;
+    background-color: #16a2bd;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px 35px 10px;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    font-size:20px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 200;
+}
+.signup-form {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    display: block;
+    background: none;
+    border: 1px solid #16a2bd;
+}
+.signup-form-top {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+.signup-form form {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+.signup-form input {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+}
+.signup-form button {
+    background: rgba(22, 162, 189,0.7);
+    border: none;
+    font-size:18px;
+    font-weight:300;
+    font-family: Montserrat;
+    margin-left: 25%;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.back-to-dat {
+    margin:auto;
+    margin-top: 50px;
+    width: 260px;
+    height: 40px;
+    background: rgba(22, 162, 189,0.7);
+    border: none;
+}
+.back-to-dat div {
+    margin: auto; 
+    width: 68%;
+    padding-top: 6px;
+}
+.back-to-dat a {
+    font-size:20px;
+    font-weight:300;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+}
+.signup-form button:hover, .btnSbt:hover, #admin button:hover, .buttonSbt:hover, .signup-form-top a {
+    cursor: pointer;
+}
+
+@media(min-width: 992px) {
+    
+.sumUp-left {
+    justify-content: center;
+    height: 150px;
+    width: 80%;
+    padding-right: 20px;
+    text-align: right;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.confi-Top {
+    width: 38%;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+section {
+    background: rgba(22, 162, 189, 0.1);
+}
+.sumUp-right {
+    justify-content: center;
+    height: 150px;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+.mail-msg {
+    width: 41%; 
+    margin: auto;
+    padding-bottom: 20px;
+}
+.box-button {
+    border-bottom: solid 1px #16a2bd;
+    width: 60%;
+    margin: auto;
+}
+.button {
+    height: 40px;
+    width: 240px;
+    margin: auto;
+}
+body {
+    font-family: Montserrat;
+    background: none;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+}
+h3 {
+    font-size: 45px;
+    font-weight: 200;   
+}
+}
